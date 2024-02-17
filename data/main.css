@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.empty-block {
+    height: 200px;
+    width: 200px;
+    margin: 2px;
+}
+
+.block {
+    border-radius: 15px;
+    border: 1px solid black;
+    background-color: darkgray;
+    height: 200px;
+    width: 200px;
+    margin: 2px;
+}

@@ -17,7 +17,7 @@ void handle_not_found();
 void init_server() {
     // actions
     GET_PATH_WITH_ACTION("/", handle_default());
-    GET_PATH_WITH_ACTION("/pfp", load_image("/pfp.img"); handle_default());
+    GET_PATH_WITH_ACTION("/pfp", load_image("/plant.img"); handle_default());
     GET_PATH_WITH_ACTION("/desk", load_image("/desk.img"); handle_default());
 
     // public files

@@ -10,7 +10,7 @@ The web server supports the following features:
 - Serving static files (that are uploaded to SPIFFS)
 - Endpoints with actions (like turning on and off a LED)
 - Logging via serial when in debug mode
-- The default action as written in `server.cpp` server the `index.html` file
+- The default action as written in `server.cpp` serve the `index.html` file
 
 Currently supported file types for static files are (but not limited to (it's very easy to expand upon)):
 - HTML
